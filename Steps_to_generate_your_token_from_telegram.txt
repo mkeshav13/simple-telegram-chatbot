@@ -1,0 +1,59 @@
+🤖 How to Create Your Own Bot Token on Telegram
+Follow these simple steps to create a Telegram bot and get your token:
+
+1. Open Telegram and Search for @BotFather
+BotFather is the official bot to manage all Telegram bots.
+
+It has a verified blue checkmark ✅.
+
+2. Start a Chat with BotFather
+Click Start or type /start to begin the conversation.
+
+3. Create a New Bot
+Send the command:
+
+bash
+Copy
+Edit
+/newbot
+BotFather will ask for a name for your bot.
+
+This is your bot’s display name (e.g., My Dummy Bot).
+
+Then it will ask for a username.
+
+This must end in bot (e.g., dummytestbot, dfordemobot).
+
+4. Get Your Bot Token
+Once your bot is created, BotFather will reply with a message like:
+
+vbnet
+Copy
+Edit
+Done! Congratulations on your new bot. You will find it at t.me/dfordemobot.
+Use this token to access the HTTP API:
+123456789:ABCdefGHI_jklMNOpqrSTUvwxYZ
+Copy the token – this is your API key to control the bot.
+
+5. Add the Token to Your Script
+Replace the TOKEN variable in your Python code with the one you just received:
+
+python
+Copy
+Edit
+TOKEN: final = "123456789:ABCdefGHI_jklMNOpqrSTUvwxYZ"
+✅ Optional: Disable Privacy Mode (for Group Chats)
+If you want your bot to respond to all messages in a group without needing to be mentioned:
+
+Open @BotFather.
+
+Send:
+
+bash
+Copy
+Edit
+/mybots
+Select your bot → Bot Settings → Group Privacy.
+
+Set it to Disabled.
+
