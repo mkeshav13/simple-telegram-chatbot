@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Replace with your actual bot token
-TOKEN: final = "8056652668:AAFf_uQ85sUev1IBCrlvy_p4ph0fTPr0So8"
-BOT_USERNAME: final = "@dfordemobot"
+TOKEN: final = "Enter_your_token"
+BOT_USERNAME: final = "Enter_your_bot_username"
 
 
 # Command handlers
