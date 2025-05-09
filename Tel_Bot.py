@@ -28,6 +28,8 @@ def handle_response(text: str) -> str:
         return 'Hey there!'
     if any(greet in processed for greet in ['hi', 'hii', 'hie']):
         return 'Hello there!'
+    if 'Who are you' in processed:
+        return 'I am a dummy bot.'
     if any(bye in processed for bye in ['bye', 'byee']):
         return "Bye, take care!"
 
